@@ -1,0 +1,4 @@
+export default function ResumenTareas({ total, completadas }) {
+  const porcentaje = total ? Math.round(completadas / total * 100) : 0;
+  return <section className="resumen" aria-label="Resumen de tareas"><article><span>Total de tareas</span><strong>{total}<small>Todo en un solo lugar</small></strong></article><article><span><i className="punto pendiente" />Pendientes</span><strong>{total - completadas}<small>Tu próximo paso</small></strong></article><article><span><i className="punto completo" />Completadas</span><strong>{completadas}<small>¡Sigue así!</small></strong></article><article className="progreso"><span>Tu progreso <b>{porcentaje}%</b></span><progress max="100" value={porcentaje} aria-label="Porcentaje de tareas completadas" /><small>{total ? "Cada tarea cuenta." : "Agrega tu primera tarea."}</small></article></section>;
+}

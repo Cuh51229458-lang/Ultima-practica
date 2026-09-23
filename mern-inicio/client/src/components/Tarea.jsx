@@ -1,0 +1,3 @@
+export default function Tarea({ tarea, onAlternar, onEliminar }) {
+  return <tr className={`tarea-fila ${tarea.completada ? "completada" : ""}`}><td><label className="tarea-label"><input type="checkbox" checked={tarea.completada} onChange={() => onAlternar(tarea.id)} /><span>{tarea.titulo}</span></label></td><td><span className={`estado ${tarea.completada ? "estado-completada" : "estado-pendiente"}`}><i className="punto" />{tarea.completada ? "Completada" : "Pendiente"}</span></td><td><button className="boton-eliminar" aria-label={`Eliminar ${tarea.titulo}`} onClick={() => onEliminar(tarea.id)}>Eliminar</button></td></tr>;
+}
