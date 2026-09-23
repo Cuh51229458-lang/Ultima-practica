@@ -26,18 +26,6 @@ Mostrar cinco variables y ejecutar tres operaciones dentro de las etiquetas JSX 
 
 Con 3 tareas, 1 completada y 25 minutos: 2 pendientes, 50 minutos y 33% de avance. Al completar otra tarea y elegir 40 minutos: 1 pendiente, 40 minutos y 67%. Sin tareas los tres resultados son cero.
 
-## Evidencia 1: variables y cálculos iniciales
-
-![Cinco variables y resultados iniciales](jsx-01-variables-calculos.png)
-
-## Evidencia 2: actualización reactiva
-
-![Resultados al completar otra tarea y ajustar la duración](jsx-02-resultados-actualizados.png)
-
-## Evidencia 3: pantalla móvil
-
-![Actividad en pantalla móvil](jsx-03-vista-movil.png)
-
 ## Verificación
 
 Compilación de producción y ESLint correctos. Pruebas en Chrome de los valores iniciales, actualización reactiva, cero tareas y pantalla móvil de 390 px sin desbordamiento horizontal. Sin errores JavaScript durante las pruebas.

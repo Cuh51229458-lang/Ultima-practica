@@ -38,4 +38,4 @@ El encabezado usa decoración CSS.
 
 ## Actividad: cinco variables y tres cálculos
 
-La actividad está implementada en `mern-inicio/client/src/App.jsx`. Consulta la [explicación y las tres capturas de pantalla](docs/actividad-jsx/README.md).
+La actividad está implementada en `mern-inicio/client/src/App.jsx`. Consulta la [explicación de la actividad](docs/actividad-jsx/README.md).
