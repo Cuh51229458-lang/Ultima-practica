@@ -34,4 +34,8 @@ npm run build
 Ambos comandos completados correctamente. Pruebas realizadas en Chrome: alta, validación, cambio de estado, filtros, búsqueda sin resultados, persistencia al recargar, eliminación, deshacer, ausencia de errores JavaScript y ausencia de desbordamiento horizontal a 390 px. También se comprobó que movimiento reducido desactiva las animaciones.
 
 
-Esta entrega no incluye imágenes ni capturas de pantalla. El encabezado usa decoración CSS.
+El encabezado usa decoración CSS.
+
+## Actividad: cinco variables y tres cálculos
+
+La actividad está implementada en `mern-inicio/client/src/App.jsx`. Consulta la [explicación y las tres capturas de pantalla](docs/actividad-jsx/README.md).
